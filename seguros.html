@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguros</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body class="body">
+    <div class="div">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="header__text">Aseguradora</h1>
+            <nav class="header__nav">
+                <ul class="header__navegacion">
+                    <a href="index.html" class="headeritems__navegacion">Inicio</a>
+                    <a href="seguros.html" class="headeritems__navegacion header__active">Seguros</a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="main__cards" id="lista-items">
+                <div class="card" style="width: 15rem;">
+                    <img class="card-img-top" src="./img/seguroauto.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Asegurar Vehiculo</h5>
+                      <p class="card-text">Agregue un seguro vehicular a su presupuesto</p><br>
+                      <p>Ingrese el valor de su vehiculo</p>
+                      <input type="number" name="seguroauto" id="seguroauto" class="precio">
+                      <br></br>
+                      <a href="#" class="btn btn-primary agregar-lista auto" data-id="1" >Agregar</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 15rem;">
+                    <img class="card-img-top" src="./img/segurocasa.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Asegurar casa</h5>
+                      <p class="card-text">Agregue un seguro inmobiliario a su presupuesto</p><br>
+                      <p>Ingrese el valor de su inmueble</p>
+                      <input type="number" name="segurocasa" id="segurocasa" class="precio">
+                      <br></br>
+                      <a href="#" class="btn btn-primary agregar-lista casa" data-id="2" >Agregar</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 15rem;">
+                    <img class="card-img-top" src="./img/segurocompu.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Asegurar dispositivo electornico</h5>
+                      <p class="card-text">Agregue un seguro para sus dispositivos electronicos</p><br>
+                      <p>Ingrese el valor de su dispositivo</p>
+                      <input type="number" name="segurocompu" id="segurocompu" class="precio">
+                      <br></br>
+                      <a href="#" class="btn btn-primary agregar-lista dispositivo" data-id="3" >Agregar</a>
+                    </div>
+                  </div>  
+              </div>  
+
+              <div>
+                <div class="table" id="div-lista">
+                    <table id="tabla-lista">
+                        <thead>
+                            <tr>
+                                <th>Imagen</th>
+                                <th>Nombre</th>
+                                <th>Precio final</th>
+                                <th>Cantidad</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+        
+                    </table>
+                   
+                </div>          
+              </div>
+
+              <div>
+                <a href="resumen.html" class="btn btn-primary" id="btnPago" >Proceder al pago</a>
+              </div>
+              
+        </main>
+        </div>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>

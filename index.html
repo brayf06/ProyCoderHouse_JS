@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body class="body">
+        <div class="div">
+        <!-- Header -->
+        <header class="header">
+           
+            <h1 class="header__text">Aseguradora</h1>
+            <nav class="header__nav">
+                <ul class="header__navegacion">
+                    <a href="index.html" class="headeritems__navegacion header__active">Inicio</a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="div__index">
+                <p>Ingrese su nombre: </p> <input type="text" name="nombre" id="nombre">
+                <p>Ingrese su documento: </p> <input type="number" name="documento" id="documento">
+                <p>Ingrese su direccion: </p> <input type="text" name="direccion" id="direccion">
+                <p>Ingrese su telefono de contacto: </p> <input type="tel" name="telefono" id="telefono">
+                <br></br>
+                <input type="submit" value="Añadir Cliente" onclick="nuevoCliente()">
+            </div>
+
+        </main>
+        
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>

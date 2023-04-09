@@ -1,0 +1,110 @@
+.body{
+    background-color: lightgray;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+/* CSS HEADER */
+.header{
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+}
+.header__logo{
+    width: 10rem;
+    height: 10rem;
+}
+.header__text{
+    display:flex;
+    margin-top: 4rem;
+    margin-right: auto;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 25px;
+    letter-spacing: -2.6px;
+    word-spacing: 2.2px;
+    color: #4F4F4F;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+    background-color: lightgray;
+}
+.header__navegacion{
+    display: flex;
+    justify-content: space-between;
+}
+.active, .items__navegacion:hover{
+    background-color: #000000;
+    color: aliceblue;
+}
+.headeritems__navegacion{
+    display:flex;
+    flex-direction: row;
+    margin-right: auto;
+    padding: 1rem;
+    margin-top: 2.35rem;
+    font-size: 17px;
+    letter-spacing: -2px;
+    word-spacing: 1.4px;
+    color: #4F4F4F;
+    font-weight: 700;
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+/* CSS Encabezado de todos los HTML */
+.header__encabezado{
+    display:flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 25px;
+    letter-spacing: -2.6px;
+    word-spacing: 2.2px;
+    color: #4F4F4F;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+    background-color: lightgray;
+}
+/* CSS Seguros */
+.main__cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
+.table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tabla{
+    padding-bottom: 5rem;
+}
+.div__centrado{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 35%;
+    padding-bottom: 15rem;
+}
+
+.div__index{
+    display:flex;
+    justify-content: center;
+    width: 25%;
+    flex-direction: column;
+    padding-left: 35%;
+}
+
